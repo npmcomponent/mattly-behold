@@ -1,8 +1,7 @@
 {
-  "name": "behold",
+  "name": "mattly-behold",
   "description": "simple frp/pubsub/observers using ECMA5 getters/setters",
   "version": "0.2.0",
-  "author": "Matthew Lyon <matthew@lyonheart.us>",
   "keywords": [
     "observable",
     "reactive",
@@ -11,32 +10,7 @@
     "publish",
     "subscribe"
   ],
-  "tags": [
-    "observable",
-    "reactive",
-    "FRP",
-    "pubsub",
-    "publish",
-    "subscribe"
-  ],
-  "homepage": "https://github.com/mattly/behold",
-  "repository": "git://github.com/mattly/behold.git",
-  "bugs": "https://github.com/mattly/behold/issues",
-  "license": "MIT",
   "main": "index.js",
-  "devDependencies": {
-    "coffee-script": "1.6.x"
-  },
-  "scripts": {
-    "prepublish": "./node_modules/.bin/coffee -c -p src/index.coffee > index.js",
-    "test": "./node_modules/.bin/coffee test/run.coffee"
-  },
-  "engines": {
-    "node": "*"
-  },
-  "component": {
-    "scripts": {
-      "behold": "index.js"
-    }
-  }
+  "dependencies": {},
+  "license": "MIT"
 }
